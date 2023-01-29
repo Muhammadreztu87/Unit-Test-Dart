@@ -1,0 +1,14 @@
+name: dart_unit_test
+description: A simple command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=3.0.0-85.0.dev <4.0.0'
+
+# Add regular dependencies here.
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.22.2
+  mockito: ^5.3.2
+  build_runner: ^2.3.3
